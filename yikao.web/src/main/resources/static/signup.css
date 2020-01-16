@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.main{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.resign{
+    float: left;
+}
+.login{
+    float: right;
+}
+.block{
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+.block::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.name{
+    width: 396px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.com{
+    float: left;
+    border: 1px solid rgba(99, 98, 98, 0.507);
+    width: 138px;
+    height: 37px;
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.26);
+}
+.address{
+    float: right;
+    width: 64%;
+    height: 35px;
+    font-size: 15px;
+}
+.pe{
+    width: 396px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.password{
+    position: relative;
+}
+.pwd{
+    width: 396px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 20px
+}
+.iconfont{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding-right: 10px;
+}
+.link{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.agree{
+    margin-right: 10px;
+}
+.btn{
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    background-color: #fe7300;
+    border: none;
+    color: white;
+}
+a{
+    color: #005980;
+}
+a:hover{
+    color: #009fda;
+}
+.gitee{
+    position: relative;
+}
+.wenhao{
+    top: 5px;
+    color:green;
+}
